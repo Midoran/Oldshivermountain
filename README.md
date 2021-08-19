@@ -1,4 +1,4 @@
-# Altschauerberg
+# Altschauerberg Adventure
 
 Find the mighty Rudi-Tapes and end the Drachengame. You are the only hope for thousands of Haiders. Are you the chosen one? Are you DERJENICHE who goes there and build shit?
 
