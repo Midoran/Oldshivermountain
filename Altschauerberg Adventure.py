@@ -141,7 +141,7 @@ def Hof():
         Hof()
     elif "2" in answer:
       print("\n")
-      game_over("""Du hörst, wie es in der Schanze anfängt zu donnern. Die spürst die Vibrationen. Die Einschläge kommen näher.
+      game_over("""Du hörst, wie es in der Schanze anfängt zu donnern. Du spürst die Vibrationen. Die Einschläge kommen näher.
       Auf einmal geht die Tür auf und ein stinkendes Ungetier, knapp 1,89 groß, stellt sich dir schnaubend entgegne. Rainer erkennt dich
       als Haider und brüllheult: "RUNNA VON MEIM GRUNDSTÜGG SONST ZERHAGG ICH DICH IN KLEINE STÜGGE DU HURESOOOOOHN! Du flüchtest.""")
     elif "3" in answer:
@@ -161,7 +161,8 @@ def Hof():
         if "j" in answer:
           print("\n")
           game_over("""Du musst fast würgen, als du an die Tonne herantrittst. Du schaust hinein, doch weichst sofort zurück, völlig aufgelöst. 
-          Die Gerüchte stimmen. Oh mein Gott, die Gerüchte sind alle wahr. In der blauen Tonne liegt eine verrotende Ente. Du flüchtest.""")
+          Die Gerüchte stimmen. Oh mein Gott, die Gerüchte sind alle wahr. In der blauen Tonne liegt eine verrottende Ente. Du musst würgen.
+          Das hast du nicht erwartet. Wie widerwärtig. Wie schlimm ist es dann erst im Haus??? Du flüchtest wieder.""")
         elif "n" in answer:
           print("Gute Entscheidung. Du gehst zurück zur Tür und versuchst es noch einmal. Diesmal lässt sie sich öffnen.")
           print("\n")
@@ -266,7 +267,7 @@ def Hausflur():
     Hausflur()
 
 def Radelraum():
-  print("""Du findest dich in einem zugemüllten Raum wieder. Die Decke ist mit hässlichen Graffiti beschmiert, genauso wie die Wände.
+  print("""Du findest dich in einem zugemüllten Raum wieder. Die Decke ist mit hässlichen Graffitis beschmiert, genauso wie die Wände.
   Es riecht nach abgestandenen Urin. Du erkennst mehere unbenutzte Sportgeräte sowie einen kaputten Hometrainer. Du erinnerst dich
   an die lustigen Videos, als Reiner noch abnehmen wollte, haha. Egal, du schaust dich um, aber nichts lässt darauf schließen, dass 
   hier irgendwo die Rudi-Tapes versteckt sein könnten. Was tust du?
@@ -379,14 +380,14 @@ def Küche():
 def Badezimmer_1():
   print("""Du erschauderst, als du die Tür zum Badezimmer öffnest. Du hast die Bilder im Internetz gesehen, aber die Realität ist dann doch nochmal krasser. 
   Nicht nur Geruch von Urin und Kot setzt sich in deine Nase, nein, auch einen modrigen, etwas urigen Geruch kannst du herausfiltern. 
-  Wohin (möchtest) du als erstes in dieser sanitären Hölle gehen?
+  Wohin "möchtest" du als erstes in dieser sanitären Hölle gehen?
   
   1. Zur Dusche.
   2. Zum Waschbecken.
   3. Zur Toilette.
   4. Zurück zur Küche.
   5. Zurück zum Radelraum.
-  6. Zurück zum Streamingzimmer .
+  6. Zurück zum Streamingzimmer.
   7. Bloß raus hier!""")
 
   answer = input(RED).lower()
@@ -394,7 +395,7 @@ def Badezimmer_1():
 
   if "1" in answer:
     print("""KAGGDUSCHNE! Das ist das erste Wort, das dir einfällt, bei diesem Anblick einer heruntergekommenen Version
-    einer Dusche. Auf dem Duschboden finden sich ekelerregende braune Spuren. Als du die Duschand etwas genauer betrachtest,
+    einer Dusche. Auf dem Duschboden finden sich ekelerregende braune Spuren. Als du die Duschwand etwas genauer betrachtest,
     kommt sie dir irgendwie bekannt vor. Willst du weiter darüber nachdenken? (J/N)""")
 
     answer = input(RED).lower()
@@ -410,7 +411,7 @@ def Badezimmer_1():
         print("\n")
         game_over("""Du überlegst und überlegst. Auf einmal kommt es dir wie ein Blitz ins Gehirn geschossne! Du weißt,
         woher du diese Dusche kennst. Aber du hast es die ganze Zeit über verdrängt gehabt. Doch jetzt steigen dir diese grauen-
-        vollen Bilder wieder in den Kopf und du siehst vor deinem inneren Auge, wie Rainer und der schwarze Luan sich in dieser
+        vollen Bilder wieder in den Kopf und du siehst vor deinem inneren Auge, wie sich Rainer und der schwarze Luan in dieser
         Dusche miteinander verbinden. Das wars, das hält kein normaler Mensch aus. Scheiß auf die Rudi-Tapes! Deine Gesundheit ist
         dir wichtiger. Du flüchtest.""")
       elif "n" in answer:
@@ -418,7 +419,7 @@ def Badezimmer_1():
         print("\n")
         Badezimmer_1()
       else:
-        print("Du weißt selbst warummäh oder?")
+        print("Du weißt selbst warummäh oder?!")
         print("\n")
         Badezimmer_1()
 
@@ -432,12 +433,12 @@ def Badezimmer_1():
       Badezimmer_1()
 
   elif "2" in answer:
-    print("""Du schaust dir das Waschbecken genauer an. Du siehst, natürlich, mehrere Sodild auf dem Rand stehen. Aber auch seltsame
+    print("""Du schaust dir das Waschbecken genauer an. Du siehst, natürlich, mehrere "Sodild" auf dem Rand stehen. Aber auch seltsame
     Dinge, wie Schminkzeug und eine Bastelschere. Aber sonst nichts weiter spannendes.""")
     print("\n")
     Badezimmer_1()
   elif "3" in answer:
-    print("Was erwartest du? Es ist eine Toilette, in die ein übergewichtiger, unhygienischer Mensch uriniert. Genau so sieht sie aus.")
+    print("Was erwartest du? Es ist eine Toilette, in die ein übergewichtiger, unhygienischer Oger uriniert. Genau so sieht sie aus.")
     print("\n")
     Badezimmer_1()
   elif "4" in answer:
@@ -747,7 +748,7 @@ def Hamsterzimmer():
   print(Style.RESET_ALL)
 
   if "1" in answer:
-    print("""Der Käfig sieht so aus, als würde er seit Jahren nicht mehr berührt worden. Das Streu fängt langsam 
+    print("""Der Käfig sieht so aus, als wäre er seit Jahren nicht mehr berührt worden. Das Streu fängt langsam 
     an zu lebne und das Gitter setzt Rost an. Du kannst den Käfig öffnen, wenn du willst. (J/N)""")
 
     answer = input(RED).lower()
@@ -755,8 +756,8 @@ def Hamsterzimmer():
 
     if "j" in answer:
       print("""Als du den Käfig öffnest und die zweite Ebene entfernst, findest du ein kleines Häuschen. Als
-      du es anhebst, entblößt du darunter die Überreste von etwas, das einmal ein Hamster sein konnte. Armes Ding,
-      du wusstest es schon immer, dass Hamster keinen Winterschlaf machen. Du verdrückst eine Träne und schaust dich
+      du es anhebst, entblößt du darunter die Überreste von etwas, das einmal ein Hamster hätte sein können.
+      Armes Ding, du wusstest es schon immer, dass Hamster keinen Winterschlaf machen. Du verdrückst eine Träne und schaust dich
       im Zimmer weiter um.""")
       print("\n")
       Hamsterzimmer()
@@ -979,7 +980,7 @@ def secret_ending():
   BANG! POW! BUMM! Jeder von euch kassiert Schläge des anderen.
   
   Haha, natürlich nur Spaß. Als Rainer deinen ersten Schlag ins Gesicht bekommt, der zudem nur schwach und gestreift war, bricht er heulend
-  zusammen und hält sich die Wange. "Die Haider wollne mich tötne." heult er dich an. Da liegt er nun, der mächtige Drachenlord. In seinem eigenen
+  zusammen und hält sich die Wange. "Die Haider wollne mich tötne." kreischt er dich an. Da liegt er nun, der mächtige Drachenlord. In seinem eigenen
   Kot. Zusammengekauert, besiegt. Von wegne sechs Jahre Kampfsport. Er hat rein gar nichts drauf. Du nimmst die Rudi-Tapes und läufst genüglich aus
   der Schanze heraus. Bummsdi ist mit seiner Situation eh schon gestraft genug. Du lässt ihn in Frieden zurück. Du hast was du willst. Als du in dein Auto
   steigst, hörst du ihn von seinem Balkon aus hinter dir herrufen: "Na, komm doch her, du Feigling! Ihr werdet mich niemals besiegne. Komm doch
