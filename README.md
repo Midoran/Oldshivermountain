@@ -10,7 +10,7 @@ Features:
 
 - 1 super secret ending only for trve Haider.
 
-- 1 Eastegg with an answer to a question that is so goddman existential that even Jean-Paul Sartre would give it some thought.
+- 1 Eastegg with an answer to a question that is so goddamn existential that even Jean-Paul Sartre would give it some thought.
 
 
 
