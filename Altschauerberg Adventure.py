@@ -280,11 +280,11 @@ def Hausflur():
   Als du so nach vorne blickst, musst du an das erste Video des Drechen denkne. Das Tanzfideo. Damals war er noch dünn. Das war vor der 250kg Staffel. 
   Schöne Zeiten. Wohin möchtest du als erstes gehen?
   
-  1. Gehe ins Obergeschoss.
-  2. Gehe in den Radelraum.
-  3. Gehe in die Küche.
-  4. Gehe ins Badezimmer.
-  5. Gehe in die Streamzimmer.""")
+  1. In das Obergeschoss.
+  2. In den Radelraum.
+  3. In die Küche.
+  4. In das Badezimmer.
+  5. In das Streamzimmer.""")
 
   answer = input(RED).lower()
   print(Style.RESET_ALL)
@@ -916,6 +916,7 @@ def Altes_Streamzimmer():
                 Tapes verloren! Alles umsonst! Oh nein. Du kannst jetzt nur noch berichtne, was auf den Tapes stand. Das macht dich aber 
                 nur zu einem durchschnittlichen Haider. Du bist NICHT Derjeniche. Du hättest die Fassung behalten sollne.""")
               elif "2" in answer:
+                print("\n") 
                 game_over("""Du rennst wie ein kopfloses Huhn im Obergeschoss umher. Rainer holt dich schnaufend ein und nimmt dich in
                 den Schwitzkasten. Der Geruch lässt dich ohnmächtig werdne. DEMJENICHEN wäre das nicht passiert.""")
               else:
@@ -1022,7 +1023,7 @@ def secret_ending():
   Kot. Zusammengekauert, besiegt. Von wegne sechs Jahre Kampfsport. Er hat rein gar nichts drauf. Du nimmst die Rudi-Tapes und läufst genüglich aus
   der Schanze heraus. Bummsdi ist mit seiner Situation eh schon gestraft genug. Du lässt ihn in Frieden zurück. Du hast was du willst. Als du in dein Auto
   steigst, hörst du ihn von seinem Balkon aus hinter dir herrufen: "Na, komm doch her, du Feigling! Ihr werdet mich niemals besiegne. Komm doch
-  her und trau dich! Du feiger Hurensohn!!!!" Es ist alles wie immer. Du lächelst, weil du die Macht in der Hand hälst, das Game zu beendne. Du bist
+  her und trau dich! Du feiger Hurensohn!!!!" Es ist alles wie immer. Du lächelst, weil du die Macht in der Hand hältst, das Game zu beendne. Du bist
   wahrhaftig:
   
   DERJENICHE *holy music intesifies*
